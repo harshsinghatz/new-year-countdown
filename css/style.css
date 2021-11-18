@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background: url("../images/light-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.heading {
+  font-size: 6.4rem;
+  color: #7f2a3c;
+  font-weight: 500;
+  text-shadow: 0.6rem 1.2rem 2.4rem rgba(170, 57, 57, 0.7);
+}
+.time {
+  display: flex;
+  gap: 3.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.time > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #7f2a3c;
+}
+.time-value {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #de7e5d;
+}
